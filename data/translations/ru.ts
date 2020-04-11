@@ -18,7 +18,7 @@
         <location filename="../../src/customeditor/customeditor.cpp" line="75"/>
         <location filename="../../src/customeditor/customeditor.cpp" line="85"/>
         <source>Please open an issue in the RazerGenie repository. Device name: %1 - matrix dimens: %2 %3</source>
-        <translation>Пожалуйста, откройте жалобу в репозитории RazerGenie. Device name: %1 - matrix dimens: %2 %3</translation>
+        <translation>Пожалуйста, начните обсуждение в репозитории RazerGenie. Имя устройства: %1 - matrix dimens: %2 %3</translation>
     </message>
     <message>
         <location filename="../../src/customeditor/customeditor.cpp" line="91"/>
@@ -28,7 +28,7 @@
     <message>
         <location filename="../../src/customeditor/customeditor.cpp" line="91"/>
         <source>Please open an issue in the RazerGenie repository. Device type: %1</source>
-        <translation>Пожалуйста, откройте жалобу в репозитории RazerGenie. Device type: %1</translation>
+        <translation>Пожалуйста, начните обсуждение в репозитории RazerGenie. Тип устройства: %1</translation>
     </message>
     <message>
         <location filename="../../src/customeditor/customeditor.cpp" line="123"/>
@@ -48,12 +48,12 @@
     <message>
         <location filename="../../src/customeditor/customeditor.cpp" line="151"/>
         <source>You are using a keyboard with a layout which is not known to the daemon. Please help us by visiting &lt;a href=&apos;https://github.com/openrazer/openrazer/wiki/Keyboard-layouts&apos;&gt;https://github.com/openrazer/openrazer/wiki/Keyboard-layouts&lt;/a&gt;. Using a fallback layout for now.</source>
-        <translation>Вы используете клавиатуру с раскладкой, неизвестной сервису OpenRazer. Пожалуйста помогите нам это исправит посетив &lt;a href=&apos;https://github.com/openrazer/openrazer/wiki/Keyboard-layouts&apos;&gt;https://github.com/openrazer/openrazer/wiki/Keyboard-layouts&lt;/a&gt; Будет использованна запасная раскладка.</translation>
+        <translation>Вы используете клавиатуру с раскладкой, неизвестной сервису OpenRazer. Пожалуйста, помогите нам это исправить, посетив &lt;a href=&apos;https://github.com/openrazer/openrazer/wiki/Keyboard-layouts&apos;&gt;https://github.com/openrazer/openrazer/wiki/Keyboard-layouts&lt;/a&gt; Будет использована запасная раскладка.</translation>
     </message>
     <message>
         <location filename="../../src/customeditor/customeditor.cpp" line="153"/>
         <source>Your keyboard layout (%1) is not yet supported by RazerGenie for this keyboard. Please open an issue in the RazerGenie repository.</source>
-        <translation>Раскладка вашей клавиатуры (%1) еще не поддерживается RazerGenie. Пожалуйста откройте жалобу на странице репозитория RazerGenie.</translation>
+        <translation>Раскладка вашей клавиатуры (%1) еще не поддерживается RazerGenie. Пожалуйста, начните обсуждение в репозитории RazerGenie.</translation>
     </message>
     <message>
         <location filename="../../src/customeditor/customeditor.cpp" line="167"/>
@@ -102,12 +102,12 @@ The editor won&apos;t open now.</source>
     <message>
         <location filename="../../src/preferences/preferences.cpp" line="39"/>
         <source>RazerGenie Version: %1</source>
-        <translation>RazerGenie Version: %1</translation>
+        <translation>Версия RazerGenie: %1</translation>
     </message>
     <message>
         <location filename="../../src/preferences/preferences.cpp" line="42"/>
         <source>OpenRazer Daemon Version: %1</source>
-        <translation>OpenRazer Daemon Version: %1</translation>
+        <translation>Версия сервиса OpenRazer: %1</translation>
     </message>
     <message>
         <location filename="../../src/preferences/preferences.cpp" line="45"/>
@@ -117,7 +117,7 @@ The editor won&apos;t open now.</source>
     <message>
         <location filename="../../src/preferences/preferences.cpp" line="49"/>
         <source>For displaying device images, RazerGenie downloads the image behind the URL specified for a device in the OpenRazer daemon source code. This will only be done for devices that are connected to the PC and only once, as the images are cached locally. For reviewing, what information Razer might collect with these connections, please consult the Razer Privacy Policy (https://www.razer.com/legal/privacy-policy).</source>
-        <translation>Для показа изображений устройств, RazerGenie загрузит изображение по ссылке, указанной в коде OpenRazer daemon. Это будет сделанно только для подключенных к ПК устройств и только один раз. Компания Razer может собирать информацию об этих соединениях. Для точной информации посетите страницу https://www.razer.com/legal/privacy-policy.</translation>
+        <translation>Для показа изображений устройств, RazerGenie загрузит изображение по ссылке, указанной в коде OpenRazer daemon. Это будет сделано только для подключенных к ПК устройств и только один раз, поскольку изображения сохраняются в кэше. Компания Razer может собирать информацию об этих соединениях. Для точной информации посетите страницу https://www.razer.com/legal/privacy-policy.</translation>
     </message>
     <message>
         <location filename="../../src/preferences/preferences.cpp" line="53"/>
@@ -146,7 +146,7 @@ The editor won&apos;t open now.</source>
 You have to either start the daemon manually every time you log in or set up another method of autostarting the daemon.
 
 Manually starting would be running &quot;openrazer-daemon&quot; in a terminal.</source>
-        <translation>OpenRazer daemon не запущен и вы не используете systemd в качестве системы инициальзации.
+        <translation>Сервис OpenRazer не запущен и вы не используете systemd в качестве системы инициализации.
 Вам придется запускать его каждый раз самому или добавить его в автозапуск другим способом.
 
 Для ручного запуска используйте &quot;openrazer-daemon&quot; в терминале.</translation>
@@ -154,14 +154,16 @@ Manually starting would be running &quot;openrazer-daemon&quot; in a terminal.</
     <message>
         <location filename="../../src/razergenie.cpp" line="59"/>
         <source>The OpenRazer daemon is not installed</source>
-        <translation>OpenRazer Daemon не установлен</translation>
+        <translation>Сервис OpenRazer не установлен</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="60"/>
         <source>The daemon is not installed or the version installed is too old. Please follow the installation instructions on the website!
 
 If you are running RazerGenie as a flatpak, you will still have to install OpenRazer outside of flatpak from a distribution package.</source>
-        <translation>Сервис OpenRazer не установлен или установлена слишком старая версия. Пожалуйста обновите или установите его, как это написано на вебсайте.</translation>
+        <translation>Сервис OpenRazer не установлен или установлена слишком старая версия. Пожалуйста, следуйте инструкциям по установке на сайте.
+
+Если вы используете RazerGenie как flatpak-пакет, вам все равно придется установить OpenRazer вне flatpak.</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="61"/>
@@ -171,7 +173,7 @@ If you are running RazerGenie as a flatpak, you will still have to install OpenR
     <message>
         <location filename="../../src/razergenie.cpp" line="74"/>
         <source>The OpenRazer daemon is not available.</source>
-        <translation>OpenRazer Daemon не доступен.</translation>
+        <translation>Сервис OpenRazer недоступен.</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="86"/>
@@ -181,7 +183,7 @@ If you are running RazerGenie as a flatpak, you will still have to install OpenR
     <message>
         <location filename="../../src/razergenie.cpp" line="88"/>
         <source>If you think, there&apos;s a bug, you can report an issue on GitHub:</source>
-        <translation>Если вам кажется, что здесь есть ошибка, пожалуста сообщите нам на GitHub:</translation>
+        <translation>Если вы обнаружили ошибку, пожалуйста, сообщите нам на GitHub:</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="89"/>
@@ -193,7 +195,7 @@ If you are running RazerGenie as a flatpak, you will still have to install OpenR
     <message>
         <location filename="../../src/razergenie.cpp" line="110"/>
         <source>The OpenRazer daemon is not set to auto-start. Click &quot;Enable&quot; to use the full potential of the daemon right after login.</source>
-        <translation>OpenRazer Daemon не включен для автозапуска. Нажмите &quot;Включить&quot;, что бы начать использовать весь его потенциал сразу после входа в систему.</translation>
+        <translation>Сервис OpenRazer не выбран для автозапуска. Нажмите &quot;Включить&quot;, чтобы начать использовать весь потенциал сервиса сразу после входа в систему.</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="111"/>
@@ -213,28 +215,28 @@ If you are running RazerGenie as a flatpak, you will still have to install OpenR
     <message>
         <location filename="../../src/razergenie.cpp" line="173"/>
         <source>The D-Bus connection was lost, which probably means that the daemon has crashed.</source>
-        <translation>Соединение с D-Bus было потерянно. Скорее всего сервис завис или вылетел.</translation>
+        <translation>Соединение с D-Bus было потеряно. Скорее всего, сервис прекратил работу из-за сбоя.</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="348"/>
         <location filename="../../src/razergenie.cpp" line="362"/>
         <source>Lighting</source>
-        <translation>Анимация</translation>
+        <translation>Подсветка</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="364"/>
         <source>Lighting Logo</source>
-        <translation>Анимация логотипа</translation>
+        <translation>Эффект подсветки логотипа</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="366"/>
         <source>Lighting Scroll</source>
-        <translation>Анимация колёсика</translation>
+        <translation>Эффект подсветки колеса прокрутки</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="368"/>
         <source>Lighting Backlight</source>
-        <translation>Анимация подсветки</translation>
+        <translation>Эффект основной подсветки</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="404"/>
@@ -249,12 +251,12 @@ If you are running RazerGenie as a flatpak, you will still have to install OpenR
     <message>
         <location filename="../../src/razergenie.cpp" line="453"/>
         <source>Brightness Scroll</source>
-        <translation>Яркость колёсика</translation>
+        <translation>Яркость колеса прокрутки</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="476"/>
         <source>Brightness Backlight</source>
-        <translation>Яркость подсветки</translation>
+        <translation>Яркость основной подсветки</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="515"/>
@@ -274,7 +276,7 @@ If you are running RazerGenie as a flatpak, you will still have to install OpenR
     <message>
         <location filename="../../src/razergenie.cpp" line="552"/>
         <source>Set Scroll Active</source>
-        <translation>Сделать колёсико активным</translation>
+        <translation>Сделать колесо прокрутки активным</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="563"/>
@@ -342,7 +344,7 @@ If you are running RazerGenie as a flatpak, you will still have to install OpenR
         <source>The OpenRazer daemon didn&apos;t detect a device that is supported.
 This could also be caused due to a misconfiguration of this PC.</source>
         <translation>Сервис OpenRazer не обнаружил поддерживаемых устройств.
-Это так же может быть вызвано неправильной настройкой этого ПК.</translation>
+Это также может быть вызвано неправильной настройкой этого ПК.</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="821"/>
@@ -357,12 +359,12 @@ This could also be caused due to a misconfiguration of this PC.</source>
     <message>
         <location filename="../../src/razergenie.cpp" line="827"/>
         <source>Linux detected connected devices but the daemon didn&apos;t. This could be either due to a permission problem or a kernel module problem.</source>
-        <translation>Linux обнаружил устройства, но сервис - нет. Это может быть проблема с правами или проблема с модулем ядра.</translation>
+        <translation>Linux обнаружил устройства, но сервис - нет. Это может быть проблема с правами или с модулем ядра.</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="829"/>
         <source>Open troubleshooting page</source>
-        <translation>Открыть страницу проблем</translation>
+        <translation>Узнать пути устранения ошибок</translation>
     </message>
     <message>
         <location filename="../../src/razergenie.cpp" line="848"/>
